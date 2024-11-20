@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admindashboard.css">
+</head>
+<body>
+  <header class="admin-header">
+    <div class="logo">CET Admission Portal - Admin</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#users-section">Manage Users</a></li>
+        <li><a href="#reports-section">View Reports</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <h1>Welcome, Admin</h1>
+      <p>Manage and oversee the CET Admission Portal efficiently.</p>
+    </section>
+
+    <section id="users-section" class="card-section">
+      <h2>Manage Users</h2>
+      <div class="card">
+        <p>View and manage student accounts.</p>
+        <button>View Students</button>
+      </div>
+      <div class="card">
+        <p>Manage administrative roles.</p>
+        <button>Manage Admins</button>
+      </div>
+    </section>
+
+    <section id="reports-section" class="card-section">
+      <h2>View Reports</h2>
+      <div class="card">
+        <p>Access detailed reports of applications.</p>
+        <button>View Reports</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="admin-footer">
+    <p>© 2024 CET Admission Portal | Admin Dashboard</p>
+  </footer>
+</body>
+</html>
